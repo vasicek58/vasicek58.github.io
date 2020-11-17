@@ -5,13 +5,12 @@ SpectraMosaic is an exploratory tool developed for the interactive visual analys
 ## Testing the application with a sample dataset
 To run SpectraMosaic, visit https://vasicek58.github.io/spectramosaic.html.
 
-There are three sample datasets available for testing in the "sample_data" directory: 
+There are two sample datasets available for testing in the `sample_data.zip` archive: 
 
 - neuroinflammation_set_spatial_study: a dataset of three voxels in two patients, intended for a comparison between spatial locations of the voxels
 - neuroinflammation_set_diff_TE_study: a dataset of two voxels in a single patient, intended for a comparison between two values of echo time
-- neuroinflammation_set_artificial: an artificially created dataset intended to test all the glyph encoding scenarios, includes both brain states and a time series
 
-To load the data, drag-and-drop the whole directory at the specified widget in the application (see below for a detailed descreption of the application usage). 
+To load the data, drag-and-drop the whole directory (named here `neuroinflammation_set_*`) at the specified widget in the application (see below for a detailed descreption of the application usage). 
 
 ## Upstream processing steps for analysis
 To use this application, you need to have performed a number of preprocessing steps with the initial spectral acquisition. This tool is downstream of the spectral voxel registration and model fitting steps. This has been developed to pair with output from GE MR scanners, but can be extended to work with others, such as Siemens. 
@@ -71,7 +70,7 @@ You will need a project hierarchy setup with the following structure:
         - voxel_xxx
     - ___header_info.csv
 
-NB: You will get a validation error if your structure is not set like this. As an example structure we have a test data folder loaded that has already done through the preparatory script - see `neuroinflammation_set_spatial_study.zip` as reference dataset. Extract this folder, then drag the directory into the drop window of the application to load in the dataset. 
+NB: You will get a validation error if your structure is not set like this. As an example structure we have a test data folder loaded that has already done through the preparatory script - see `neuroinflammation_set_spatial_study` in `sample_data.zip` as reference dataset. Extract this folder, then drag the directory into the drop window of the application to load in the dataset. 
 
 ## How to use
 
