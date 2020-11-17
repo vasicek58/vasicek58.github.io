@@ -10,7 +10,7 @@ There are two sample datasets available for testing in the `sample_data.zip` arc
 - `neuroinflammation_set_spatial_study`: a dataset of three voxels in two patients, intended for a comparison between spatial locations of the voxels
 - `neuroinflammation_set_diff_TE_study`: a dataset of two voxels in a single patient, intended for a comparison between two values of echo time
 
-To load the data, drag-and-drop the whole directory (`neuroinflammation_set_*`) at the specified widget in the application (see below for a detailed descreption of the application usage). 
+To load the data, download the `sample_data.zip` archive, unpack it and drag-and-drop the whole dataset directory (`neuroinflammation_set_*`) at the specified widget in the application (see below for a detailed descreption of the application usage). 
 
 ## Upstream processing steps for analysis
 To use this application, you need to have performed a number of preprocessing steps with the initial spectral acquisition. This tool is downstream of the spectral voxel registration and model fitting steps. This has been developed to pair with output from GE MR scanners, but can be extended to work with others, such as Siemens. 
