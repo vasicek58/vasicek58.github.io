@@ -3,11 +3,9 @@ SpectraMosaic is an exploratory tool developed for the interactive visual analys
 ![SpectraMosaic App screenshot](img/giardia-naa-ala.png)
 
 ## Testing the application with a sample dataset
-There are two options to run SpectraMosaic:
-- Visit https://vasicek58.github.io/spectramosaic.html
-- (Node.js required) Download this repository, open a terminal in the root directory (where the index.html file is located) and run "npx http-server ."
+To run SpectraMosaic, visit https://vasicek58.github.io/spectramosaic.html.
 
-There are three sample datasets available in the "sample_data" directory: 
+There are three sample datasets available for testing in the "sample_data" directory: 
 
 - neuroinflammation_set_spatial_study: a dataset of three voxels in two patients, intended for a comparison between spatial locations of the voxels
 - neuroinflammation_set_diff_TE_study: a dataset of two voxels in a single patient, intended for a comparison between two values of echo time
