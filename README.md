@@ -2,6 +2,19 @@
 SpectraMosaic is an exploratory tool developed for the interactive visual analysis of magnetic resonance spectroscopy (MRS) data.
 ![SpectraMosaic App screenshot](img/giardia-naa-ala.png)
 
+## Testing the application with a sample dataset
+There are two options to run SpectraMosaic:
+a) Visit https://vasicek58.github.io/spectramosaic.html
+b) (Node.js required) Download this repository, open a terminal in the root directory (where the index.html file is located) and run "npx http-server ."
+
+There are three sample datasets available in the "sample_data" directory: 
+
+- neuroinflammation_set_spatial_study: a dataset of three voxels in two patients, intended for a comparison between spatial locations of the voxels
+- neuroinflammation_set_diff_TE_study: a dataset of two voxels in a single patient, intended for a comparison between two values of echo time
+- neuroinflammation_set_artificial: an artificially created dataset intended to test all the glyph encoding scenarios, includes both brain states and a time series
+
+To load the data, drag-and-drop the whole directory at the specified widget in the application (see below for a detailed descreption of the application usage). 
+
 ## Upstream processing steps for analysis
 To use this application, you need to have performed a number of preprocessing steps with the initial spectral acquisition. This tool is downstream of the spectral voxel registration and model fitting steps. This has been developed to pair with output from GE MR scanners, but can be extended to work with others, such as Siemens. 
 
