@@ -3,7 +3,7 @@ SpectraMosaic is an exploratory tool developed for the interactive visual analys
 ![SpectraMosaic App screenshot](img/giardia-naa-ala.png)
 
 ## Testing the application with a sample dataset
-To run SpectraMosaic, visit https://vasicek58.github.io/spectramosaic.html.
+To run this version of SpectraMosaic, visit https://vasicek58.github.io/spectramosaic.html.
 
 There are two sample datasets available for testing in the `sample_data.zip` archive: 
 
