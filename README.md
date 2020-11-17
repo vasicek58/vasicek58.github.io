@@ -4,8 +4,8 @@ SpectraMosaic is an exploratory tool developed for the interactive visual analys
 
 ## Testing the application with a sample dataset
 There are two options to run SpectraMosaic:
-a) Visit https://vasicek58.github.io/spectramosaic.html
-b) (Node.js required) Download this repository, open a terminal in the root directory (where the index.html file is located) and run "npx http-server ."
+- Visit https://vasicek58.github.io/spectramosaic.html
+- (Node.js required) Download this repository, open a terminal in the root directory (where the index.html file is located) and run "npx http-server ."
 
 There are three sample datasets available in the "sample_data" directory: 
 
